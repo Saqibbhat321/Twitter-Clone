@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="logo">Twitter</div>
+      <ul class="menu">
+        <li><a href="#" id="home">Home</a></li>
+        <li><a href="#" id="explore">Explore</a></li>
+        <li><a href="#" id="notifications">Notifications</a></li>
+        <li><a href="#" id="messages">Messages</a></li>
+        <li><a href="#" id="profile">Profile</a></li>
+      </ul>
+      <button class="tweet-btn">Tweet</button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="header">
+        <h1>Home</h1>
+      </div>
+
+      <!-- Tweet Box -->
+      <div class="tweet-box">
+        <textarea id="tweet-input" placeholder="What's happening?"></textarea>
+        <button id="post-tweet">Tweet</button>
+      </div>
+
+      <!-- Tweet Feed -->
+      <div class="tweet-feed" id="tweet-feed">
+        <!-- Tweets will be dynamically added here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
